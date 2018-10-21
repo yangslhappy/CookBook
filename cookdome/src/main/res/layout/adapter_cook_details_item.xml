@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:padding="10dp"
+    android:orientation="vertical">
+
+	<TextView
+		android:id="@+id/step_tv"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentTop="true"
+		android:layout_marginTop="7dp"
+		android:singleLine="true"
+		android:text="硬菜,家常菜"
+		android:textColor="#000"
+		android:textSize="16sp" />
+    <TextView
+        android:id="@+id/lineView"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/step_tv"
+        android:background="#ececec"/>
+    <com.example.view.SmartImageView
+        android:layout_width="110dip"
+       	android:layout_height="90dip"
+       	android:layout_marginRight="15dip"
+       	android:layout_marginTop="10dip"
+       	android:layout_below="@id/lineView"
+		android:src="@drawable/na"
+       	android:id="@+id/cook_step_details_Img"
+       	android:scaleType="fitXY"/>
+    <TextView
+        android:id="@+id/cook_step_details_Intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/lineView"
+        android:layout_toRightOf="@id/cook_step_details_Img"
+        android:textSize="16dp"
+        android:maxLines="4"
+        android:lineSpacingExtra="4px"
+        android:textColor="#999"
+        android:text="超级简单的一道大菜，简单的不要不要的，超级适合新手！一次就会！不好吃不要赞！学会了这道辣子鸡 爸妈吃了直夸好，老公吃了回家早(๑‾ ꇴ ‾๑)
+首先，准备原材料。大鸡腿，随便切大概一块在3-5cm左右。接下来要准备的材料，蒜苗，蒜，花椒，姜，糍粑辣椒。首先倒油（记得油要比平时做菜要多一点，才好吃，不会的可以问妈妈）然后等油热了以后，把除了鸡肉和蒜苗的原材料倒进油里翻炒。" />
+</RelativeLayout>

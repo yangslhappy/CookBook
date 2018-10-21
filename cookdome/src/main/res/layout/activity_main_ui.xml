@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.cookdome.MainUI">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#d63443">
+
+            <ImageView
+                android:onClick="openMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/word"
+                android:layout_centerVertical="true"
+                android:paddingLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/title_tv"
+                android:text="菜谱大全"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"/>
+
+            </RelativeLayout>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+            </android.support.v4.view.ViewPager>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:background="#d63443">
+
+                <ImageView
+                    android:id="@+id/main_btn"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="42dp"
+                    android:background="@null"
+                    android:src="@drawable/zhuye" />
+
+                <ImageView
+                    android:id="@+id/classification_btn"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="32dp"
+                    android:background="@null"
+                    android:src="@drawable/fenglei"/>
+
+                <ImageView
+                    android:id="@+id/search_btn"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="32dp"
+                    android:background="@null"
+                    android:src="@drawable/sousuo"/>
+
+                <ImageView
+                    android:id="@+id/collection_btn"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="28dp"
+                    android:background="@null"
+                    android:src="@drawable/shoucan"/>
+
+            </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

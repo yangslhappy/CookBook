@@ -1,0 +1,29 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\AndroidStudioProjects\CookBook\PullRefreshLibrary\AndroidManifest.xml:2:1-11:12
+INJECTED from E:\AndroidStudioProjects\CookBook\PullRefreshLibrary\AndroidManifest.xml:2:1-11:12
+INJECTED from E:\AndroidStudioProjects\CookBook\PullRefreshLibrary\AndroidManifest.xml:2:1-11:12
+INJECTED from E:\AndroidStudioProjects\CookBook\PullRefreshLibrary\AndroidManifest.xml:2:1-11:12
+INJECTED from E:\AndroidStudioProjects\CookBook\PullRefreshLibrary\AndroidManifest.xml:2:1-11:12
+INJECTED from E:\AndroidStudioProjects\CookBook\PullRefreshLibrary\AndroidManifest.xml:2:1-11:12
+INJECTED from E:\AndroidStudioProjects\CookBook\PullRefreshLibrary\AndroidManifest.xml:2:1-11:12
+	package
+		ADDED from E:\AndroidStudioProjects\CookBook\PullRefreshLibrary\AndroidManifest.xml:3:5-49
+		INJECTED from E:\AndroidStudioProjects\CookBook\PullRefreshLibrary\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\CookBook\PullRefreshLibrary\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\AndroidStudioProjects\CookBook\PullRefreshLibrary\AndroidManifest.xml:5:5-32
+		INJECTED from E:\AndroidStudioProjects\CookBook\PullRefreshLibrary\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\CookBook\PullRefreshLibrary\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\AndroidStudioProjects\CookBook\PullRefreshLibrary\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from E:\AndroidStudioProjects\CookBook\PullRefreshLibrary\AndroidManifest.xml:4:5-31
+		INJECTED from E:\AndroidStudioProjects\CookBook\PullRefreshLibrary\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\CookBook\PullRefreshLibrary\AndroidManifest.xml
+uses-sdk
+ADDED from E:\AndroidStudioProjects\CookBook\PullRefreshLibrary\AndroidManifest.xml:7:5-43
+	android:minSdkVersion
+		ADDED from E:\AndroidStudioProjects\CookBook\PullRefreshLibrary\AndroidManifest.xml:7:15-40
+application
+ADDED from E:\AndroidStudioProjects\CookBook\PullRefreshLibrary\AndroidManifest.xml:9:5-20
